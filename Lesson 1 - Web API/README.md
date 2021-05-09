@@ -11,7 +11,7 @@ To start the web app, you must have [dotnetcore 5 installed](https://dotnet.micr
 
 
 
-**Start API using dotnet CLI**
+## Start API using dotnet CLI
 
 From the terminal, run the following command
 ```shell
@@ -21,7 +21,7 @@ Open browser to http://localhost:5000/helloworld. You should see 'Hello World'
 
 
 
-**Build API container image using Docker**
+## Build API container image using Docker
 
 From the termianl run
 ```shell
@@ -31,7 +31,7 @@ Build may take a while but logs should be verbose. At the end, you should see a 
 
 
 
-**Run the container image**
+## Run the container image
 
 ```shell
 docker run -it --rm -p 8080:5000 webapi:v1

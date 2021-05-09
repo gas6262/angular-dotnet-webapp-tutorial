@@ -41,3 +41,5 @@ These languages will stand the test of time. Couple them with the latest infrast
 
 # Why did I create this course
 I originally attempted to create this application in order to do image recognition through a website in order to simplify the process of building AI models and connecting them to real-world input. I sought a no-code solution to creating a model and getting input to my model. Due to competitors, I decided not to continue. While creating the bits and pieces was rather simple, I found stitching them together to be *very complicated*. I think there's immense value in getting other developers to the end goal ASAP and I think you will too! Enjoy and leave feedback!
+
+Get started on in this tutorial [HERE](https://dgaspard.com/KubernetesAITutorial2/)

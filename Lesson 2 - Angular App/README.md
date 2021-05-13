@@ -1,4 +1,4 @@
-# Webapp
+# HelloWorld Containerized Angular Webapp
 
 This is a simple web app that fetches data from the dotnet API built in lesson 1. Follow along with the [tutorial here](http://localhost:4000/KubernetesAITutorial_2/)
 

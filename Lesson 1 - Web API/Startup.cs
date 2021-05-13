@@ -15,6 +15,8 @@ namespace webapi
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -25,6 +27,19 @@ namespace webapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200", // Angular app
+                                            "http://127.0.0.1:4200", 
+                                            "http://localhost:8081", // Angular app in container
+                                            "http://127.0.0.1:8081",
+                                            "http://localhost");
+                    });
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -44,6 +59,8 @@ namespace webapi
             }
 
             app.UseRouting();
+
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 

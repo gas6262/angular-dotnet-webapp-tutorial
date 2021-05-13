@@ -1,4 +1,4 @@
-To start the web app, you must have [dotnetcore 5 installed](https://dotnet.microsoft.com/download/dotnet/5.0), You can follow this [tutroal here](https://dgaspard.com/KubernetesAITutorial2/)
+To start the web app, you must have [dotnetcore 5 installed](https://dotnet.microsoft.com/download/dotnet/5.0), You can follow this [tutorial here](https://dgaspard.com/KubernetesAITutorial2/)
 
 ## Prerequisites
 +  [Visual Studio Code](https://code.visualstudio.com/download) for development
@@ -10,7 +10,6 @@ To start the web app, you must have [dotnetcore 5 installed](https://dotnet.micr
 +  [Google chrome](https://www.google.com/chrome/) or Microsoft edge chromium
 
 
-
 ## Start API using dotnet CLI
 
 From the terminal, run the following command
@@ -20,16 +19,13 @@ dotnet run
 Open browser to http://localhost:5000/helloworld. You should see 'Hello World'
 
 
-
 ## Build API container image using Docker
 
 From the termianl run
 ```shell
-docker build -t webapi:v1
+docker build -t webapi:v1 .
 ```
 Build may take a while but logs should be verbose. At the end, you should see a success status
-
-
 
 ## Run the container image
 

@@ -1,4 +1,4 @@
-To start the web app, you must have [dotnetcore 5 installed](https://dotnet.microsoft.com/download/dotnet/5.0), You can follow this [tutorial here](https://dgaspard.com/KubernetesAITutorial2/)
+To start the web app, you must have [dotnetcore 5 installed](https://dotnet.microsoft.com/download/dotnet/5.0), You can follow this [tutorial here](https://dgaspard.com/KubernetesAITutorial1/)
 
 ## Prerequisites
 +  [Visual Studio Code](https://code.visualstudio.com/download) for development

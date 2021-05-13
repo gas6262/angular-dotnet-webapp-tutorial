@@ -1,6 +1,6 @@
 # Webapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12. It is a simple web app that fetches data from the dotnet API built in lesson 1.
+This is a simple web app that fetches data from the dotnet API built in lesson 1. Follow along with the [tutorial here](http://localhost:4000/KubernetesAITutorial_2/)
 
 ## Prerequisites
 

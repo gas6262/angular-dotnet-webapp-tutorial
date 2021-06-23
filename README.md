@@ -1,4 +1,4 @@
-# [Creating an AI WebApp on Kubernetes](https://dgaspard.com/KubernetesAITutorial2/)
+# [Creating an AI WebApp on Kubernetes](https://dgaspard.com/KubernetesAITutorial_Intro/)
 
 Developing and deploying applications via Kubernetes can be a massive undertaking. When simply setting up the infrastructure locally to test a POC for an application, engineers may find themselves spending more time setting up hosting infrastructure than actually providing customer content and value. Not to mention the fact that deploying to Azure and scaling that application to the world can very difficult. This tutorial is aimed to help all those of you just getting started in the world of Kubernetes to get a head start in getting your web application out to the world!
 
